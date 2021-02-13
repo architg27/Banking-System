@@ -1,0 +1,28 @@
+body{
+      background-image: url(/images/pic1.jpg);
+      margin: 0;
+}
+.first{
+	padding-top:78px; 
+	text-align: center;
+	font-size: 60px;
+
+}
+h2{
+	text-align: center;
+    font-size: 50px;
+}
+.second{
+	text-align: center;
+	font-size: 60px;
+}
+a{
+	text-decoration: none;
+	color:#191919 ;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 134px;
+}
+.cus{
+	padding-left: 450px;
+}

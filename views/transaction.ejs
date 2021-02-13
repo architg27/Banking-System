@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking System</title>
+    <link rel="stylesheet" type="text/css" href="\css\transaction.css">
+</head>
+<body>
+    <h1>Transaction History</h1>
+<table>
+    <th>Sender's Name</th><th>Receiver's Name</th><th>Amount</th><th>Time</th>
+</table>
+<table><% transaction.forEach((item) => { %>
+    <tr>
+        <td><%= item.Sname %></td>
+        <td class="container"><%= item.Rname %></td>
+        <td class="container1"><%= item.amount %></td>
+        <td class="container2"><%= item.date %></td>
+    </tr><% }) %>
+</table>
+<br><br><br>    
+<a href="/"  class="ind">Back</a>
+</body>
+</html>

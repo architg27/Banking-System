@@ -1,0 +1,46 @@
+body{
+      background-image: url(/images/pic1.jpg);
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+th{
+	padding-left: 190px;
+	font-size: 20px;
+}
+td{
+	padding-left: 180px;
+	font-size: 25px;
+	font-weight: 30;
+}
+.container{
+	padding-left: 160px;
+}
+.container1{
+	padding-left: 170px;
+}
+.container2{
+	padding-left: 120px;
+}
+.ind{
+	font-size: 20px;
+	text-decoration: none;
+	color:#191919;
+	font-weight: 550;
+	padding-left: 650px;
+}
+.user{
+	padding-left: 138px;
+}
+.show{
+	text-align: center;
+	font-size: 20px;
+}
+.ind1{
+	font-size: 20px;
+	text-decoration: none;
+	color:#191919;
+	font-weight: 550;
+	padding-left: 600px;
+}

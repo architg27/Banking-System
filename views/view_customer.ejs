@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking System</title>
+	<link rel="stylesheet" type="text/css" href="\css\view_customer.css">
+</head>
+<body>
+	<h1>Customers Information</h1>
+<table>
+	<th>Name</th><th>E-mail</th><th>Current Amount</th>
+</table>
+<table><% banking.forEach((item) => { %>
+	<tr>
+		<td><%= item.name %></td>
+		<td class="container"><%= item.email %></td>
+		<td class="container1"><%= item.cb %></td>
+	</tr><% }) %>
+</table>
+<br><br><br>	
+<a href="/">Back</a>
+<a href="/user_select" class="user">Select User</a>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+      background-image: url(/images/pic1.jpg);
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+.send{
+	padding-left: 550px;
+}
+div{
+	text-align: center;
+}

@@ -1,0 +1,32 @@
+body{
+      background-image: url(/images/pic1.jpg);
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+th{
+	padding-left: 270px;
+	font-size: 20px;
+}
+td{
+	padding-left: 225px;
+	font-size: 25px;
+	font-weight: 30;
+}
+.container{
+	padding-left: 100px;
+}
+.container1{
+	padding-left: 130px;
+}
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color:#191919;
+	font-weight: 550;
+	padding-left: 500px;
+}
+.user{
+	padding-left: 138px;
+}

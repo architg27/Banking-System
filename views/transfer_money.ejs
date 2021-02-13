@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking System</title>
+    <link rel="stylesheet" type="text/css" href="\css\selectuser.css">
+</head>
+<body>
+    <h1>Transfer Money</h1>
+    <form action="/index" method="post">
+        <div>
+            <h2>Sender's Details</h2><% banking.forEach((item) => { %>
+            <h4>Sender's Name:&nbsp;&nbsp;&nbsp;<%= item.name %></h4>
+            <h4>Sender's Email:&nbsp;&nbsp;&nbsp;<%= item.email %></h4>
+            <h4>Sender's Balance:&nbsp;&nbsp;&nbsp;<%= item.cb %></h4><br><% }) %>
+        </div>
+        <div>
+        <h2>Recipient's Details</h2>
+        <h3>Recipient's name:<select name="subject" id="subject">
+        <option>-Select-</option>
+        <option>Abhinav Gujjar</option>
+        <option>Aniket Jain</option>
+        <option>Atishay Shrivastav</option>
+        <option>Harsh Singh</option>
+        <option>Kaif Khan</option>
+        <option>Ram Prasad Yadav</option>
+        <option>Sarthak Dubey</option>
+        <option>Shivam Kapoor</option>
+        <option>Ukti Sharma</option>
+        <option>Zeeshan</option></select></h3>
+        <h3>Amount:<input type="number" name="amount" value="Amount"></h3><br><br>
+        <input type="submit" name="submit" value="Transfer">
+        </div>
+    </form>
+</body>
+</html>

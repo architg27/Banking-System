@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking System</title>
+    <link rel="stylesheet" type="text/css" href="\css\transaction.css">
+</head>
+<body>
+    <h1>Successfull Transaction</h1><% transaction.forEach((item) => { %>
+    <h4 class="show"><%= item.Sname %> send Rs <%= item.amount %> to <%= item.Rname %></h4><% }) %><br><br>
+    <a href="/transaction" class="ind1">Transaction History</a>
+</body>
+</html>
